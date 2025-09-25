@@ -212,9 +212,9 @@ body {
 }
 
 .news_cnt {
-    background: linear-gradient(45deg, #3d9f38, #d8cd4a);
+    background: linear-gradient(45deg, #3d9f38, #eddb12);
     color: white;
-    text-align: justify;
+    text-align: center;
     padding: 17px;
 }
 
