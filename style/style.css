@@ -73,13 +73,13 @@ body {
     font-weight: 300;
 } 
 .profile-photo { 
-    width: 220px;
-    height: 280px;
+    width: 550px;
+    height: 300px;
     border-radius: 15px;
     object-fit: cover;
     margin: 20px auto;
-    border: 4px solid #eeed8e;
-    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+    border: 4px solid #8ed6ee;
+    box-shadow: 0 8px 25px rgba(136, 150, 214, 0.3);
 } 
 
 .profile-name { 
@@ -100,7 +100,7 @@ body {
     padding: 25px;
     border-radius: 15px;
     margin: 30px 0;
-    border-left: 5px solid #667eea;
+    border-left: 5px solid #3a28d6;
     font-size: 16px;
     line-height: 1.8;
 } 
@@ -197,21 +197,21 @@ body {
 }
 
 .goods {
-    background: linear-gradient(135deg, #6b5fd4 100%, #cedeaa 50%);
+    background: linear-gradient(135deg, #6b5fd4 100%, #72a9ce 0%);
     color: white;
     text-align: center;
     padding: 30px;
 }
 
 .news_cnt {
-    background: linear-gradient(135deg, #a26321 100%, #667eea 90%);
+    background: linear-gradient(135deg, #a7ca8a 100%, #667eea 0%);
     color: white;
     text-align: center;
     padding: 30px;
 }
 
 .practics {
-    background: linear-gradient(135deg, #86e077 30%, #6caac7 100%);
+    background: linear-gradient(135deg, #86e077 100%, #6caac7 0%);
     color: white;
     text-align: center;
     padding: 30px;
