@@ -91,7 +91,7 @@ body {
 
 .profile-group { 
     font-size: 18px;
-    color: #7f8c8d;
+    color: #393b3b;
     margin: 5px 0;
 } 
 
@@ -185,13 +185,13 @@ body {
 
 .break_n {
     font-size: 28px;
-    color: rgb(4, 73, 201);
+    color: rgb(50, 51, 52);
     text-align: justify;
     line-height: 2;
 }
 
 .smp_txt {
-    color: rgb(46, 49, 199);
+    color: rgb(43, 44, 44);
     line-height: 1.7;
     margin: 0;
 }
