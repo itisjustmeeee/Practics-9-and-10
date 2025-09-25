@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="run">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="page-container">
+        <div class="header">Хэдер</div>
+        <div class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
+                <li class="nav-item"><a class="nav-link" href="pages/news.html">Новости</a></li>
+                <li class="nav-item"><a class="nav-link" href="pages/goods.html">Товары</a></li>
+                <li class="nav-item"><a class="nav-link" href="pages/contacts.html">Контакты</a></li>
+            </ul>
+        </div>
+        <div class="contacts">
+            <h1 class="break_n">А вот наши контакты, но вы все равно не дозвонитесь до нас</h1>
+            <section>
+                <p class="smp_txt">вот наша 100% настояая почта: lolkek@gmail.com</p>
+                <p class="smp_txt">адрес: г. Набережные Челны, ул. Трех переулков, д. 7, стр. 8</p>
+                <button id="openDialog" type="button">Позвонить мне</button>
+                <dialog id="contactDialog", aria-labelledby="dialogTitle">
+                <h2 id="dialogTitle">Написать мне?</h2>
+                    <form id="contactForm" method="dialog" novalidate>
+                    <label for="message">Точно хотите попробовать?</label>
+                        <div class="formaction">
+                            <button type="button" id="closeDialog">Закрыть</button>
+                            <button type="button" id="submit">Да, позвонить</button>
+                        </div>
+                    </form>
+                </dialog>
+            </section>
+        </div>
+        <div class="footer">Футер</div>
+    </div>
+</body>
+</html>
