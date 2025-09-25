@@ -175,3 +175,44 @@ body {
     padding: 30px;
     margin-top: 50px;
 }
+
+.content {
+    background: linear-gradient(135deg, #72d5dc 30%, #6c11ff 70%);
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.break_n {
+    font-size: 28px;
+    color: cornflowerblue;
+    text-align: justify;
+    line-height: 2;
+}
+
+.smp_txt {
+    color: lightslategray;
+    line-height: 1.7;
+    margin: 0;
+}
+
+.goods {
+    background: linear-gradient(135deg, #6b5fd4 50%, #cedeaa 50%);
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.news_cnt {
+    background: linear-gradient(135deg, #a26321 10%, #667eea 90%);
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.practics {
+    background: linear-gradient(135deg, #86e077 30%, #6caac7 70%);
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
