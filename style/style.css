@@ -78,7 +78,7 @@ body {
     border-radius: 15px;
     object-fit: cover;
     margin: 20px auto;
-    border: 4px solid #8ed6ee;
+    border: 2px solid #8ed6ee;
     box-shadow: 0 8px 25px rgba(136, 150, 214, 0.3);
 } 
 
@@ -183,6 +183,13 @@ body {
     padding: 30px;
 }
 
+.contacts {
+    background: linear-gradient(to bottom left, blue, pink);
+    color: white;
+    text-align: justify;
+    padding: 17px;
+}
+
 .break_n {
     font-size: 28px;
     color: rgb(50, 51, 52);
@@ -198,21 +205,21 @@ body {
 }
 
 .goods {
-    background: linear-gradient(70deg, #d5f03e, #40dcb0);
+    background: linear-gradient(70deg, #d5f03e, #1b2bd9);
     color: white;
     text-align: center;
     padding: 17px;
 }
 
 .news_cnt {
-    background: linear-gradient(25dg, #6449be, #354ebe, #d54724);
+    background: linear-gradient(45deg, #3d9f38, #d8cd4a);
     color: white;
-    text-align: center;
+    text-align: justify;
     padding: 17px;
 }
 
 .practics {
-    background: linear-gradient(to bottom left, #60d24c, #1ca7e7);
+    background: linear-gradient(25dg, #6449be, #354ebe, #d54724);
     color: white;
     text-align: center;
     padding: 17px;
