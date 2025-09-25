@@ -186,33 +186,33 @@ body {
 .break_n {
     font-size: 28px;
     color: rgb(50, 51, 52);
-    text-align: center;
+    text-align: justify;
     line-height: 2;
 }
 
 .smp_txt {
     color: rgb(43, 44, 44);
-    text-align: center;
+    text-align: justify;
     line-height: 1.7;
     margin: 0;
 }
 
 .goods {
-    background: linear-gradient(70deg, #6b5fd4, #72a9ce);
+    background: linear-gradient(70deg, #d5f03e, #40dcb0);
     color: white;
     text-align: center;
     padding: 17px;
 }
 
 .news_cnt {
-    background: linear-gradient(25dg, #a7ca8a, #667eea, #b2543d);
+    background: linear-gradient(25dg, #6449be, #354ebe, #d54724);
     color: white;
     text-align: center;
     padding: 17px;
 }
 
 .practics {
-    background: linear-gradient(135deg, #86e077, #6caac7);
+    background: linear-gradient(to bottom left, #60d24c, #1ca7e7);
     color: white;
     text-align: center;
     padding: 17px;
