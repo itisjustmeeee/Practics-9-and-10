@@ -212,14 +212,14 @@ body {
 }
 
 .news_cnt {
-    background: linear-gradient(45deg, #3d9f38, #eddb12);
+    background: linear-gradient(120deg, #3d9f38, #eddb12);
     color: white;
     text-align: center;
     padding: 17px;
 }
 
 .practics {
-    background: linear-gradient(25dg, #6449be, #354ebe, #d54724);
+    background: linear-gradient(25deg, #354ebe, #d54724);
     color: white;
     text-align: center;
     padding: 17px;
