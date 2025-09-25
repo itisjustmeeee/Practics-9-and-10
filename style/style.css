@@ -73,7 +73,7 @@ body {
     font-weight: 300;
 } 
 .profile-photo { 
-    width: 550px;
+    width: 300px;
     height: 300px;
     border-radius: 15px;
     object-fit: cover;
@@ -200,19 +200,19 @@ body {
     background: linear-gradient(135deg, #6b5fd4 100%, #72a9ce 0%);
     color: white;
     text-align: center;
-    padding: 30px;
+    padding: 17px 30px;
 }
 
 .news_cnt {
     background: linear-gradient(135deg, #a7ca8a 100%, #667eea 0%);
     color: white;
     text-align: center;
-    padding: 30px;
+    padding: 17px 30px;
 }
 
 .practics {
     background: linear-gradient(135deg, #86e077 100%, #6caac7 0%);
     color: white;
     text-align: center;
-    padding: 30px;
+    padding: 17px 30px;
 }
