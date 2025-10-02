@@ -34,13 +34,13 @@
                 <button class="c-button" onclick="document.getElementById('contactModal').showModal()">Написать мне</button>
                 <dialog id="contactModal"> 
                     <div class="modal-header"> 
-                        <h2>Форма обратной связи</h2> 
+                        <h2>Формя для связи. Просьба: заполните все поля ниже!</h2> 
                     </div> 
                     <div class="modal-content"> 
                         <form id="feedbackForm" method="dialog"> 
                             <div class="form-group"> 
-                                <label for="name">Имя <span class="required">*</span></label>
-                                <input type="text" id="name" name="name" required placeholder="Введите ваше имя">
+                                <label for="name">Имя (ник) <span class="required">*</span></label>
+                                <input type="text" id="name" name="name" required placeholder="Введите имя или ник">
                             </div>
                             <div class="form-group"> 
                                 <label for="phone">Телефон <span class="required">*</span></label> 
@@ -53,18 +53,16 @@
                             <div class="form-group"> 
                                 <label for="category">Категория обращения <span class="required">*</span></label> 
                                 <select id="category" name="category" required> 
-                                    <option value="">Выберите категорию</option> 
-                                    <option value="technical">Техническая поддержка</option> 
-                                    <option value="commercial">Коммерческое предложение</option> 
-                                    <option value="cooperation">Сотрудничество</option> 
-                                    <option value="complaint">Жалоба</option> 
-                                    <option value="suggestion">Предложение</option> 
-                                    <option value="other">Другое</option> 
+                                    <option value="">Выберите вид обращения</option> 
+                                    <option value="technical">Поддержать нас</option> 
+                                    <option value="commercial">Предложение по товарам</option> 
+                                    <option value="cooperation">Вопросы по практикам</option> 
+                                    <option value="complaint">Просто поговорить</option> 
                                 </select> 
                             </div> 
                             <div class="form-group"> 
-                                <label for="message">Текст обращения <span class="required">*</span></label> 
-                                <textarea id="message" name="message" required placeholder="Опишите вашу проблему или вопрос..."></textarea> 
+                                <label for="message">Поле для раскрытия темы обращения<span class="required">*</span></label> 
+                                <textarea id="message" name="message" required placeholder="Напишите здесь что-нибудь"></textarea> 
                             </div>
                             <div class="modal-actions"> 
                                 <button type="submit" class="btn btn-secondary" onclick="contactModal.close(); return false;">Отмена</button>
@@ -99,7 +97,7 @@
 
             console.log('Данные формы:', data); 
 
-            alert('Спасибо! Ваше обращение отправлено. Мы свяжемся с вами в ближайшее время.'); 
+            alert('Спасибо. Мы свяжемся с вами в ближайшее время, но это не точно uwu.'); 
 
             contactModal.close(); 
             contactModal.returnValue = 'success';
