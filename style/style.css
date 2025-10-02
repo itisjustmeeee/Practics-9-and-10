@@ -270,3 +270,26 @@ main.content {
         padding: 20px;
     }
 }
+
+.c-button {
+    display: flex;
+    min-width: 200px;
+    justify-content: center;
+    cursor: not-allowed;
+    appearance: none;
+    border: #1b2bd9;
+    border-radius: 5px;
+    background: #3e8ae8;
+    color: white;
+    padding: 8px 17px;
+    font-size: 17px;
+}
+
+.c-button:hover {
+    background: #0868de;
+}
+
+.c-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #cbd6ee;
+}

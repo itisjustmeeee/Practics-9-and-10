@@ -23,9 +23,15 @@
         <main class="contacts">
             <h1 class="break_n">А вот наши контакты, но вы все равно не дозвонитесь до нас</h1>
             <section>
-                <p class="smp_txt">вот наша 100% настоящая почта: lolkek@gmail.com</p>
-                <p class="smp_txt">адрес: г. Набережные Челны, ул. Трех переулков, д. 7, стр. 8</p>
-                <button onclick="document.getElementById('myDialog').showModal()">Написать мне</button>
+                <article class="experience-card">
+                    <h2 class="experience-title">вот наша 100% настоящая почта:</h2>
+                    <p class="smp_txt">lolkek@gmail.com</p>
+                </article>
+                <article class="experience-card">
+                    <h2 class="experience-title">адрес:</h2>
+                    <p class="smp_txt">г. Набережные Челны, ул. Трех переулков, д. 7, стр. 8</p>
+                </article>
+                <button class="c-button" onclick="document.getElementById('myDialog').showModal()">Написать мне</button>
                 <dialog id="myDialog">
                     <p>Ой, сорян. Похоже, что я временно сдохла от кринжа. Попробуй в следующий разок UwU</p>
                     <button id="closeBtn" onclick="document.getElementById('myDialog').close()">Ну ладно</button>
