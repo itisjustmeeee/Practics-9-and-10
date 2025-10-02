@@ -8,8 +8,10 @@
 </head>
 <body>
     <div class="page-container">
-        <div class="header">Хэдер</div>
-        <div class="nav">
+        <header class="header">
+            <h1>Хэдер</h1>
+        </header>
+        <nav class="nav">
             <ul class="nav-list">
                 <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
                 <li class="nav-item"><a class="nav-link" href="pages/news.html">Новости</a></li>
@@ -17,44 +19,47 @@
                 <li class="nav-item"><a class="nav-link" href="pages/contacts.html">Контакты</a></li>
                 <li class="nav-item"><a class="nav-link" href="pages/practics.html">Практики</a></li>
             </ul>
-        </div>
-        <div class="content">
-            <div class="profile-header">
+        </nav>
+        <main class="content">
+            <article class="profile-header">
                 <h1 class="profile-title">Информация об авторе</h1>
                 <img class="profile-photo" src="images/photo.jpg" alt="фото автора">
                 <h2 class="profile-name">Гузаирова Ольга Ринатовна</h2>
                 <p class="profile-group">ЭФБО-05-24</p>
-            </div>
-            <div class="about me">
+            </article>
+            <section class="about me">
                 <p>Обо мне: Я родился в Москве в 70-м на краю города. Глупость рано ударила в голову. В четыре активно ругался. Потом школа, форма, драки, клей. Так я становился сильней. Воровал деньги в раздевалке.</p>
-            </div>
-            <div class="skill container">
-                <div class="skill-tag">навык 1</div>
-                <div class="skill-tag">навык 2</div>
-                <div class="skill-tag">навык 3</div>
-                <div class="skill-tag">навык 4</div>
-            </div>
-            <div class="experience-section">
+            </section>
+            <section class="skill container">
+                <h2>Мои навыки</h2>
+                <div class="skill-grid">
+                    <div class="skill-tag">навык 1</div>
+                    <div class="skill-tag">навык 2</div>
+                    <div class="skill-tag">навык 3</div>
+                    <div class="skill-tag">навык 4</div>
+                </div>
+            </section>
+            <section class="experience-section">
                 <h2 class="section-title">Мой опыт работы</h2>
-                <div class="experience-card">
-                    <h3 class="experience-title">Опыт 1</h3>
-                    <p class="experience-desc">Работал фантазёром. Сочинял и праздновал.</p>
+                <div class="experience-grid">
+                    <article class="experience-card">
+                        <h3 class="experience-title">Опыт 1</h3>
+                        <p class="experience-desc">Работал фантазёром. Сочинял и праздновал.</p>
+                    </article>
+                    <article class="experience-card">
+                        <h3 class="experience-title">Опыт 2</h3>
+                        <p class="experience-desc">Работал воровством. Воровал и продавал.</p>
+                    </article>
+                    <article class="experience-card">
+                        <h3 class="experience-title">Опыт 3</h3>
+                        <p class="experience-desc">Работал рэпером. Читал и пел.</p>
+                    </article>
                 </div>
-            </div>
-            <div class="experience-section">
-                <div class="experience-card">
-                    <h3 class="experience-title">Опыт 2</h3>
-                    <p class="experience-desc">Работал воровством. Воровал и продавал.</p>
-                </div>
-            </div>
-            <div class="experience-section">
-                <div class="experience-card">
-                    <h3 class="experience-title">Опыт 3</h3>
-                    <p class="experience-desc">Работал рэпером. Читал и пел.</p>
-                </div>
-            </div>
-        </div>
-        <div class="footer">Футер</div>
+            </section>
+        </main>
+        <footer class="footer">
+            <p>Футер</p>
+        </footer>
     </div>
 </body>
 </html>
