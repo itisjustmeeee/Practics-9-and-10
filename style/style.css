@@ -283,10 +283,6 @@ main.content {
     background-color: #1b2bd9;
 }
 
-.c-button:hover {
-    background: #0868de;
-}
-
 .c-button:focus {
     outline: none;
     box-shadow: 0 0 0 4px #5777bc;
