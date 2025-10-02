@@ -274,11 +274,12 @@ main.content {
 .c-button {
     display: flex;
     min-width: 200px;
-    justify-content: center;
-    cursor: not-allowed;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
     appearance: none;
     border: #1b2bd9;
-    border-radius: 5px;
+    border-radius: 2px;
     background: #3e8ae8;
     color: white;
     padding: 8px 17px;
