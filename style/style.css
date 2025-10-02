@@ -272,18 +272,37 @@ main.content {
 }
 
 .c-button {
-    display: inline-block;
-    min-width: 100px;
-    cursor: pointer;
-    appearance: none;
-    border: 2px solid #1b2bd9;
-    color: white;
-    padding: 8px 16px;
+    padding: 10px 20px;
     font-size: 16px;
+    cursor: pointer;
+    border: 2px solid #1b2bd9;
     background-color: #1b2bd9;
+    color: white;
+    border-radius: 5px;
 }
-
+.c-button:hover {
+    background-color: #0868de;
+}
 .c-button:focus {
     outline: none;
-    box-shadow: 0 0 0 4px #5777bc;
+    box-shadow: 0 0 0 2px #5777bc;
+}
+
+#closeBtn {
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #ff4444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+        
+#closeBtn:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #ff6666;
+}
+        
+#closeBtn:hover {
+    background-color: #cc0000;
 }
