@@ -236,7 +236,7 @@ main.content {
 }
 
 .goods {
-    background: linear-gradient(70deg, #d5f03e, #1b2bd9);
+    background: linear-gradient(70deg, #0a369c, #9d1dff);
     color: white;
     text-align: center;
     padding: 17px;
@@ -369,7 +369,7 @@ dialog {
 .form-group select:focus, 
 .form-group textarea:focus { 
     outline: none; 
-    border-color: #667eea; 
+    border-color: #38f1c6; 
 } 
 
 .form-group textarea { 
@@ -395,7 +395,7 @@ dialog {
 } 
 
 .btn-primary { 
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
+    background: linear-gradient(135deg, #efd358 0%, #d84545 100%); 
     color: white; 
 } 
 
