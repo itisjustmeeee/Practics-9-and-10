@@ -272,16 +272,15 @@ main.content {
 }
 
 .c-button {
-    display: flex;
+    display: inline-block;
     min-width: 100px;
-    display: grid;
-    place-items: center;
     cursor: pointer;
     appearance: none;
-    border: #1b2bd9;
+    border: 2px solid #1b2bd9;
     color: white;
     padding: 8px 16px;
     font-size: 16px;
+    background-color: #1b2bd9;
 }
 
 .c-button:hover {
@@ -290,5 +289,5 @@ main.content {
 
 .c-button:focus {
     outline: none;
-    box-shadow: 0 0 0 4px #cbd6ee;
+    box-shadow: 0 0 0 4px #5777bc;
 }
